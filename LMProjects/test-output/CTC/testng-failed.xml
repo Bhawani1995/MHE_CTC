@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [CTC]">
+  <test thread-count="5" name="sample test(failed)">
+    <classes>
+      <class name="com.MHE.Test.MHETest">
+        <methods>
+          <include name="initialize"/>
+          <include name="TestCase016"/>
+          <include name="TestCase015"/>
+          <include name="TestCase017"/>
+        </methods>
+      </class> <!-- com.MHE.Test.MHETest -->
+    </classes>
+  </test> <!-- sample test(failed) -->
+</suite> <!-- Failed suite [CTC] -->

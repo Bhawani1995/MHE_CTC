@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="CTC">
+
+  <test name="sample test">
+    <classes>
+      <class name="com.MHE.Base.SC_BasePage"/>
+      <class name="com.MHE.Page_elements.SC_Page_Elements"/>
+      <class name ="com.MHE.Test.SC_MHETest"/>
+    </classes>
+  </test>
+</suite>
